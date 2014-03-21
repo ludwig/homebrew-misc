@@ -5,6 +5,9 @@ class FuegoDev < Formula
   url "http://svn.code.sf.net/p/fuego/code/trunk"
   version "HEAD"
 
+  depends_on :autoconf
+  depends_on :automake
+  depends_on :libtool
   depends_on 'boost'
 
   def install
