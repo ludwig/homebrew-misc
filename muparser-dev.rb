@@ -1,6 +1,6 @@
 require "formula"
 
-class Muparser2 < Formula
+class MuparserDev < Formula
   homepage "https://code.google.com/p/muparser/"
   url "http://muparser.googlecode.com/svn/trunk/"
   version "HEAD"
