@@ -7,7 +7,7 @@ require 'formula'
 class WinpdbDev < Formula
   url 'http://winpdb.googlecode.com/files/winpdb-1.4.8.zip'
   homepage 'http://winpdb.org/'
-  md5 '0860b82ac9bf3975042aa13018d38b25'
+  sha1 '56ce8e3db02583e7205e4ac1bcd811c827a6e003'
 
   depends_on 'wxpython'
 
